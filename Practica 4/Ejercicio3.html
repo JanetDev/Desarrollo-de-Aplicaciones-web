@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/Estilos1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="prin">
+        <form action="POST">
+            <fieldset>
+                <legend>Detalles de la foto</legend>
+                <p>Titulo</p>
+                <input type="text" name="titulo" maxlength="50">
+                <p>Descripcion</p>
+                <textarea cols="59" rows="6"></textarea><br>
+                <div class="izq">
+                    <p>Contienete</p>
+                    <select name="Escoger Continente">
+                        <option value="Africa">Africa</option>
+                        <option value="asia">Asia</option>
+                        <option value="europa">Europa</option>
+                        <option value="norAmerica">Norte America</option>
+                        <option value="surAmerica">Sur America</option>
+                    </select><br>
+                    <p>Pais</p>
+                    <select name="Pais">
+                        <option value="pais">Pais</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="canada">Canada</option>
+                        <option value="estadosunidos">Estados Unidos</option>
+                    </select>
+                    <p>Ciudad</p>
+                    <p>Ciudad</p>
+                    <input list="ciudad">
+                    <datalist id="ciudad">
+                        <option value="Calgari"></option>
+                        <option value="Montreal"></option>
+                        <option value="Toronto"></option>
+                        <option value="Vancouver"></option>
+                        <option value="Tlaxcala"></option>
+                    </datalist>
+                    <p>Acepto la licencia de sotfware
+                        <input type="checkbox" name="aceptar" value="aceptar">
+                    </p>
+                    <p>Califica esta foto:<br>
+                        <input type="number" name="calif">
+                    </p>
+                    Elija un color: <br>
+                    <input type="color">
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar">
+                    </p>
+                </div>
+                <div class="centro">
+                    <p>Copyrigth?<br>
+                        <input type="radio" name="derechos" id="reservados">Todos los derechos reservados<br>
+                        <input type="radio" name="derechos" id="creative"> Creative Commons<br>
+                        Licencias Creative Commons<br>
+                        <input type="checkbox" name="atribucion">atribucion<br>
+                        <input type="checkbox" name="ncomercial">No comercial<br>
+                        <input type="checkbox" name="tderivativos">No hay trabajos derivativos<br>
+                        <input type="checkbox" name="compartir">Compartir por igual
+                    </p>
+                    <p>
+                        Fecha de toma:<br>
+                        <input type="date">
+                    </p>
+                    <p>
+                        Elija una hora:<br>
+                        <input type="time"><br>
+                    </p>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

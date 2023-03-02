@@ -1,0 +1,15 @@
+.izq {
+    float:left; /* Alineación a la izquierda */
+    width:250px;
+    padding:10px;
+}
+.centro {
+    margin-left:350px; /* Espacio para la columna izquierda */
+    margin-right:450px; /* Espacio para la columna derecha */
+    padding:10px;
+}
+.der {
+    float:right; /* Alineación a la derecha */
+    width:270px;
+    padding:10px;
+}
