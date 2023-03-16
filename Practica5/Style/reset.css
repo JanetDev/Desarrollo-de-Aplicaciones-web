@@ -1,0 +1,130 @@
+html,body,header,footer,
+hgroup,nav,article,section,figure,figcaption,h1,
+h2,h3,ul,li,body,div,p,img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+h1,h2,h3,nav,footer {
+    font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+
+body {
+    font-family: Georgia, Cambria, "Times New Roman",serif;
+    font-size: 100%;
+    background-color: rgb(191, 171, 203);
+}
+
+main{
+    background-color: white;
+    margin-top: 1em;
+    margin-right: 4em;
+    margin-bottom: 1em;
+    margin-left: 4em;
+    padding: 0.5em;
+   }
+
+h1{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 0.75rem;
+}
+h3{
+    font-size: 1em;
+    border-bottom: solid 1pt rgb(153,153,153);
+    margin: 0 0 0.5em 0;
+}
+
+p{
+    font-size: 1rem;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+    letter-spacing: 1px;
+}
+
+nav{
+    font-size: 1.125rem;
+    background-color: rgb(236, 227, 238);
+    padding: 0.25em;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+nav a{
+    padding: 0.25em;
+}
+
+a:link{
+    font-weight: bold;
+    color: rgb(141,137,166);
+}
+
+a:visited{
+    color: rgb(100, 79, 122);
+}
+
+a:hover{
+    background-color: rgb(234,200,202);
+}
+
+.titulo{
+    font-size: 1rem;
+    color: #815c97;
+    font-style: italic;
+}
+
+.estanque {
+    border: dotted 10pt #ab90b9;
+}
+
+figure{
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+figure img{
+    padding: 0.25em;
+    border: solid 1.5px #999999;
+}
+
+figure div{
+    margin: 0.25em 0em 2em 0em;
+    padding: 0.5em;
+    width: 500px;
+    border: solid 1.5px #a87bc7;
+    border-radius: 4px;
+    background: linear-gradient(#ab90b9,#d5c6dc);
+}
+
+figure div p{
+    font-size: 70%;
+    margin: 0;
+}
+figure div img{
+    padding: 0;
+    border: 0;
+}
+
+#revisiones{
+    margin-top: 1em;
+}
+#revisiones div{
+    border-bottom: dashed 1pt #999999;
+    margin-bottom: 1.25em;
+}
+
+header, footer {
+    color: white;
+    background-color: #a87bc7;
+    margin: 0em 4em 0.5em 4em;
+}
+   
+   
