@@ -1,0 +1,215 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+    Height: 75px;
+    background: red;
+    opacity: .7;
+}
+
+.Suste{
+  Height: 400px;
+  background: orange;
+  width: 100%;
+  opacity: .7;
+}
+
+section{
+  margin: 75px 100px;
+  height: 600px;
+  flex-direction: column;
+  background: yellow;
+  align-items: center;
+  width: 90%;
+  opacity: .7;
+}
+
+#main{
+  Height: 200px;
+  background: green;
+  opacity: .7;
+}
+
+
+footer{
+  Height: 100px;
+  background: Black;
+  opacity: .7;
+}
+
+article{
+  Height: 400px;
+  background: gray;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: .7;
+}
+
+.Suscri{
+  flex-direction: row;
+}
+
+header nav {
+  padding: 20px;
+  color: white;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0
+}
+
+header {
+  background-image: url("../img/header.jpg");
+  background-size:cover;
+  background-position: center;
+  height: 550px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}
+
+#logo{
+  font-size: 40px;
+}
+
+#links{
+  font-size: 18px;
+}
+
+#links a {
+  margin: 15px;
+}
+
+a {
+  cursor: pointer;
+}
+
+a.button {
+  background-color: #a8a6a1;
+  padding: 10px 15px;
+  border: 2px solid #a8a6a1;
+  border-radius: 10px;
+}
+
+a.button:hover {
+  background-color: rgba(255,255,255,0.5);
+  color: white;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header h1 em {
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+header h1 strong {
+  font-style: normal;
+  font-size: 68px;
+  letter-spacing: 1px;
+}
+
+header h1 a {
+  font-size: 15px;
+}
+
+section {
+  margin: 75px 100px;
+  text-align: center;
+}
+
+#main p {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 125px;
+  width: 60%;
+}
+
+#main h1 {
+  font-size: 2rem;
+}
+
+#main p {
+  font-size: .8;
+  line-height: 1.8rem;
+}
+
+footer {
+  background-color: rgb(45,45, 45);
+  color: rgba(255, 255, 255, .8);
+  padding: 35px;
+  text-align: center;
+}
+
+footer p {
+  color: rgba(255, 255, 255, .4);
+}
+
+address {
+  font-style: normal;
+}
+
+#details div {
+ width: calc(50% - 10px);
+}
+
+#details {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ height: 400px;
+ Width: 100%;
+ background: lime;
+}
+
+
+#details img {
+  width: 60%;
+}
+
+#details h1 {
+  font-size: 38px;
+}
+
+#details div a.button {
+  color: white;
+}
+
+#details div a.button:hover {
+  background-color: rgba(0,0,0,0.1);
+  color: white;
+}
+
+article h2{
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+article p{
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
